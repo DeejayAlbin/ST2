@@ -1,86 +1,33 @@
 <!-- wp:html -->
-<title>IND VS AUS  @Indiasports</title>
+<!doctype html>
+<html>
+    <head>
+        <title>Dash.js Rocks</title>
+        <style>
+            video {
+                width: 380px;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <video data-dashjs-player autoplay src="https://pubads.g.doubleclick.net/ssai/event/S-q8I27RRzmkb-OIdoaiAw/master.m3u8?HjFreeTV=SIX" controls>
+            </video>
+        </div>
+        <script src="yourPathToDash/dash.all.min.js"></script>
+    </body>
+</html>
 <!-- /wp:html -->
 
-<!-- wp:html -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!-- /wp:html -->
+<!-- wp:html /-->
 
-<!-- wp:html -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- /wp:html -->
-
-<!-- wp:html -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- /wp:html -->
-
-<!-- wp:html -->
-<link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css">
-<!-- /wp:html -->
-
-<!-- wp:html -->
-<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-<!-- /wp:html -->
-
-<!-- wp:html -->
-<script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
-<!-- /wp:html -->
-
-<!-- wp:html -->
-<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
-<!-- /wp:html -->
-
-<!-- wp:html -->
-<style>
-    html {
-        font-family: Poppins;
-        background: #000;
-        margin: 0;
-        padding: 0;
-    }
-</style>
-<!-- /wp:html -->
-
-<!-- wp:paragraph -->
-<p><video controls="" crossorigin="" poster="https://indiasports.xyz/wp-content/uploads/2020/09/logo_transparent.png" playsinline="">
-        <source type="application/x-mpegURL" src="{{play_url}}">
-    </video></p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><span style="color: white; font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><b>[popup_anything id="180"]</b></span></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
-<script>document.addEventListener('DOMContentLoaded', () => {
-	const source = 'https://pubads.g.doubleclick.net/ssai/event/S-q8I27RRzmkb-OIdoaiAw/master.m3u8?HjFreeTV=SIX';
-	const video = document.querySelector('video');
-	
-	// For more options see: https://github.com/sampotts/plyr/#options
-	// captions.update is required for captions to work with hls.js
-	const player = new Plyr(video, {captions: {active: true, update: true, language: 'en'}});
-	
-	if (!Hls.isSupported()) {
-		video.src = source;
-	} else {
-		// For more Hls.js options, see https://github.com/dailymotion/hls.js
-		const hls = new Hls();
-		hls.loadSource(source);
-		hls.attachMedia(video);
-		window.hls = hls;
-		
-		// Handle changing captions
-		player.on('languagechange', () => {
-			// Caption support is still flaky. See: https://github.com/sampotts/plyr/issues/994
-			setTimeout(() => hls.subtitleTrack = player.currentTrack, 50);
-		});
-	}
-	
-	// Expose player so it can be used from the console
-	window.player = player;
-});</script>
-<!-- /wp:html -->
-
-
-
 <!-- wp:paragraph {"align":"center","backgroundColor":"black","textColor":"vivid-red"} -->
-<p class="has-text-align-center has-vivid-red-color has-black-background-color has-text-color has-background"><a href="https://chat.whatsapp.com/EwFZJWRLeiZD5BVcekWcz6" target="_blank" rel="noopener noreferrer"><span style="color: #f1c232;"><span style="font-size: small;"><span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif; font-size: large;"><b>Click Here To Join Whatsapp Group 5</b></span></span></span></a><br>
+<p class="has-text-align-center has-vivid-red-color has-black-background-color has-text-color has-background"><a href="https://chat.whatsapp.com/EwFZJWRLeiZD5BVcekWcz6" target="_blank" rel="noopener noreferrer"><span style="color: #f1c232;"><span style="font-size: small;"><span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif; font-size: large;"><b>Click Here To Join Group 5</b></span></span></span></a><br>
 <span style="color: white; font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><br>
 </span></p>
 <!-- /wp:paragraph -->
@@ -125,3 +72,5 @@
 </div>
 </div>
 <!-- /wp:html -->
+
+<p><!-- /wp:html --></p>
